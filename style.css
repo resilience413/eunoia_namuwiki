@@ -1,0 +1,17 @@
+#wrapper { display: flex; align-items: flex-start; gap: 20px; }
+#toc { border: 1px solid gainsboro; display: inline-block; padding: 2px 30px 2px 15px; }
+#toc ul { list-style: none; padding-left: 10px; }
+
+a { text-decoration: none; }
+a:visited { color: blue; }
+a:hover { text-decoration: underline; }
+
+li { margin: 3px 0; }
+
+table { border: 2px solid black; border-collapse: collapse; }
+th { border: 1px solid gainsboro; padding: 5px 10px; text-align: center; }
+td { border: 1px solid gainsboro; padding: 5px 10px; }
+
+.popup-footnote { display: none; position: absolute; background: white; border: 1px solid gray;
+    padding: 8px 12px; border-radius: 3px; }
+#footnotes { list-style: none; padding-left: 0; }
